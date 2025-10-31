@@ -127,7 +127,7 @@ unit_index = {
 # -----------------------------
 # Streamlit UI
 # -----------------------------
-st.set_page_config(page_title="Horus Heresy List Builder", layout="centered")
+st.set_page_config(page_title="Horus Heresy (2nd) List Builder", layout="centered")
 st.title(" Horus Heresy Space Marine List Builder ")
 
 # create/reset army
