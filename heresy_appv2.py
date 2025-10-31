@@ -124,12 +124,12 @@ unit_index = {
 # Weapon definitions
 # -----------------------------
 weapons = {
-    "Magna combi-weapon": {"points": 10, "max_per_unit": 1, "allowed_units": "Praetor"},
-    "Minor combi-weapon": {"points": 5, "max_per_unit": 1, "allowed_units": "Praetor"},
-    "Volkite charger": {"points": 2, "max_per_unit": 1, "allowed_units": "Praetor"},
-    "Nemesis bolter": {"points": 10, "max_per_unit": 1, "allowed_units": "Praetor"},
-    "Chain axe": {"points": 5, "max_per_unit": 1, "allowed_units": "Praetor"},
-    "Thunder hammer": {"points": 30, "max_per_unit": 1, "allowed_units": "Praetor"},
+    "Magna combi-weapon": {"points": 10, "max_per_unit": 1, "allowed_units": "Legion Praetor"},
+    "Minor combi-weapon": {"points": 5, "max_per_unit": 1, "allowed_units": "Legion Praetor"},
+    "Volkite charger": {"points": 2, "max_per_unit": 1, "allowed_units": "Legion Praetor"},
+    "Nemesis bolter": {"points": 10, "max_per_unit": 1, "allowed_units": "Legion Praetor"},
+    "Chain axe": {"points": 5, "max_per_unit": 1, "allowed_units": "Legion Praetor"},
+    "Thunder hammer": {"points": 30, "max_per_unit": 1, "allowed_units": "Legion Praetor"},
 }
 
 # -----------------------------
