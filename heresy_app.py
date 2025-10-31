@@ -23,9 +23,9 @@ class ArmyList:
     def add_unit(self, unit):
         if self.total_points() + unit.points <= self.points_limit:
             self.units.append(unit)
-            return True, f"✅ Added {unit.name} ({unit.points} pts)"
+            return True, f" Added {unit.name} ({unit.points} pts)"
         else:
-            return False, f"⚠️ Cannot add {unit.name} — would exceed points limit!"
+            return False, f" Cannot add {unit.name} — would exceed points limit!"
 
     def total_points(self):
         return sum(u.points for u in self.units)
@@ -128,7 +128,7 @@ unit_index = {
 # Streamlit UI
 # -----------------------------
 st.set_page_config(page_title="Horus Heresy List Builder", layout="centered")
-st.title("⚔️ Horus Heresy List Builder (Space Marines)")
+st.title(" Horus Heresy Space Marine List Builder ")
 
 # create/reset army
 if "army" not in st.session_state:
