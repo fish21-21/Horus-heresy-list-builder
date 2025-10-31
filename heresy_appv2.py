@@ -127,7 +127,7 @@ weapons = {
     "Bolter": {"points": 0, "max_per_unit": 1, "allowed_units": "all"},
     "Plasma Gun": {"points": 15, "max_per_unit": 1, "allowed_units": ["Tactical Squad (10)", "Assault Squad (10)"]},
     "Melta Gun": {"points": 20, "max_per_unit": 2, "allowed_units": ["Tactical Squad (10)", "Legion Centurion"]},
-    "Power Fist": {"points": 25, "max_per_unit": 1, "allowed_units": "all"},
+    "Power Fist": {"points": 25, "max_per_unit": 2, "allowed_units": "all"},
     "Chainsword": {"points": 0, "max_per_unit": 1, "allowed_units": "all"},
 }
 
