@@ -128,7 +128,7 @@ unit_index = {
 # Streamlit UI
 # -----------------------------
 st.set_page_config(page_title="Horus Heresy (2nd) List Builder", layout="centered")
-st.title(" Horus Heresy Space Marine List Builder ")
+st.title(" Horus Heresy (2nd) Space Marine List Builder ")
 
 # create/reset army
 if "army" not in st.session_state:
