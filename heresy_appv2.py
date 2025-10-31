@@ -124,11 +124,12 @@ unit_index = {
 # Weapon definitions
 # -----------------------------
 weapons = {
-    "Bolter": {"points": 0, "max_per_unit": 1, "allowed_units": "all"},
-    "Plasma Gun": {"points": 15, "max_per_unit": 1, "allowed_units": ["Tactical Squad (10)", "Assault Squad (10)"]},
-    "Melta Gun": {"points": 20, "max_per_unit": 2, "allowed_units": ["Tactical Squad (10)", "Legion Centurion"]},
-    "Power Fist": {"points": 25, "max_per_unit": 2, "allowed_units": "all"},
-    "Chainsword": {"points": 0, "max_per_unit": 1, "allowed_units": "all"},
+    "Magna combi-weapon": {"points": 10, "max_per_unit": 1, "allowed_units": "Praetor"},
+    "Minor combi-weapon": {"points": 5, "max_per_unit": 1, "allowed_units": "Praetor"},
+    "Volkite charger": {"points": 2, "max_per_unit": 1, "allowed_units": "Praetor"},
+    "Nemesis bolter": {"points": 10, "max_per_unit": 1, "allowed_units": "Praetor"},
+    "Chain axe": {"points": 5, "max_per_unit": 1, "allowed_units": "Praetor"},
+    "Thunder hammer": {"points": 30, "max_per_unit": 1, "allowed_units": "Praetor"},
 }
 
 # -----------------------------
